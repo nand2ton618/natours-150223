@@ -1,0 +1,12 @@
+{
+  "DATABASE": "mongodb://localhost:27017/natours",
+  "PORT": 3000,
+  "NODE_ENV": "development",
+  "JWT_SECRET": "secret",
+  "JWT_EXPIRES_IN": "90d",
+  "JWT_COOKIE_EXPIRES_IN": 90,
+  "EMAIL_USERNAME": "",
+  "EMAIL_PASSWORD": "",
+  "EMAIL_HOST": "smtp.mailtrap.io",
+  "EMAIL_PORT": 25
+}

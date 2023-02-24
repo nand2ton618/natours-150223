@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    # environment:
+    #   MONGO_INITDB_ROOT_USERNAME: leaf
+    #   MONGO_INITDB_ROOT_PASSWORD: letmein
+    #   MONGO_INITDB_DATABASE: natours
+    ports:
+      - 27017:27017
+    volumes:
+      - /home/nand2ton618/fun/data:/data/db
